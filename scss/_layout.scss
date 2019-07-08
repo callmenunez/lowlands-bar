@@ -1,0 +1,20 @@
+// Header, footer, navigation, section 
+header {
+  background: #995134;
+  .nav-section {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    color: #fff;
+    font-family: "Literata", Times, serif;
+    font-weight: 700;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .logo {
+    font-size: 4rem;
+  }
+}
