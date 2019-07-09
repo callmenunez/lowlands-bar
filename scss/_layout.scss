@@ -15,6 +15,12 @@ header {
     }
   }
   .logo {
-    font-size: 4rem;
+    font-size: 3rem;
   }
+}
+section.hero {
+  background: url(/img/lowlands-1.jpg) no-repeat center center;
+  background-size: cover;
+  max-height: 800px;
+  min-height: 600px;
 }
